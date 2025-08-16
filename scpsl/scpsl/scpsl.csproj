@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="EXILED" Version="9.0.0-alpha.1" />
+    <PackageReference Include="UnityEngine.CoreModule" Version="2020.3.1" />
   </ItemGroup>
 
 </Project>
