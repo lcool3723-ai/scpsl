@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "EXILED/9.0.0-alpha.1": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Assembly-CSharp-Publicized.dll": {},
+          "lib/net48/CommandSystem.Core.dll": {},
+          "lib/net48/Exiled.API.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CreditTags.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomModules.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Events.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Loader.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Permissions.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/NorthwoodLib.dll": {},
+          "lib/net48/PluginAPI.dll": {},
+          "lib/net48/YamlDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Assembly-CSharp-Publicized.dll": {},
+          "lib/net48/CommandSystem.Core.dll": {},
+          "lib/net48/Exiled.API.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CreditTags.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomModules.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Events.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Loader.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Permissions.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/NorthwoodLib.dll": {},
+          "lib/net48/PluginAPI.dll": {},
+          "lib/net48/YamlDotNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EXILED/9.0.0-alpha.1": {
+      "sha512": "zGR2ttPORfl6KQ5Tgl/5C/fwr2cl5/2DZWwX06EGoBt7kMoSZk2JrLtl24griEMQOvywLaltyOnwUYxaxQo3BA==",
+      "type": "package",
+      "path": "exiled/9.0.0-alpha.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exiled.9.0.0-alpha.1.nupkg.sha512",
+        "exiled.nuspec",
+        "images/Exiled_Icon.jpg",
+        "lib/net48/Assembly-CSharp-Publicized.dll",
+        "lib/net48/CommandSystem.Core.dll",
+        "lib/net48/Exiled.API.dll",
+        "lib/net48/Exiled.API.xml",
+        "lib/net48/Exiled.CreditTags.dll",
+        "lib/net48/Exiled.CreditTags.xml",
+        "lib/net48/Exiled.CustomModules.dll",
+        "lib/net48/Exiled.CustomModules.xml",
+        "lib/net48/Exiled.Events.dll",
+        "lib/net48/Exiled.Events.xml",
+        "lib/net48/Exiled.Loader.dll",
+        "lib/net48/Exiled.Loader.xml",
+        "lib/net48/Exiled.Permissions.dll",
+        "lib/net48/Exiled.Permissions.xml",
+        "lib/net48/NorthwoodLib.dll",
+        "lib/net48/PluginAPI.dll",
+        "lib/net48/YamlDotNet.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "EXILED >= 9.0.0-alpha.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lantern\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lantern\\source\\repos\\scpsl\\scpsl\\scpsl.csproj",
+      "projectName": "scpsl",
+      "projectPath": "C:\\Users\\Lantern\\source\\repos\\scpsl\\scpsl\\scpsl.csproj",
+      "packagesPath": "C:\\Users\\Lantern\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lantern\\source\\repos\\scpsl\\scpsl\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Lantern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "EXILED": {
+            "target": "Package",
+            "version": "[9.0.0-alpha.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

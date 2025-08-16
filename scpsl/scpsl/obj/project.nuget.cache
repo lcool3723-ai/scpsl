@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ABWjL1VcVvo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lantern\\source\\repos\\scpsl\\scpsl\\scpsl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lantern\\.nuget\\packages\\exiled\\9.0.0-alpha.1\\exiled.9.0.0-alpha.1.nupkg.sha512"
+  ],
+  "logs": []
+}
